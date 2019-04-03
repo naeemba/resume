@@ -3,5 +3,16 @@
     "profilePic": "https://images.unsplash.com/photo-1551393423-78633b86b375?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9",
     "currentPosition": "Front-end Developer at",
     "currentCompany": "Google",
-    "currentCompanyURL": "http://www.google.com"
+    "currentCompanyURL": "http://www.google.com",
+    "info": [
+        {
+            "label": "me@mywebsite.com",
+            "link": "mailto:me@mywebsite.com"
+        },
+        "+971-234-856-78",
+        {
+            "label": "Dubai / UAE",
+            "link": "https://www.google.com/maps/place/Dubai+-+United+Arab+Emirates/data=!4m2!3m1!1s0x3e5f43496ad9c645:0xbde66e5084295162?sa=X&ved=2ahUKEwj60YH2ka_hAhWq5OAKHRYcAYsQ8gEwAHoECAoQAQ"
+        }
+    ]
 }

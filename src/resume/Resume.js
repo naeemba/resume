@@ -1,6 +1,7 @@
 // @flow
 import React from 'react';
 import settings from './settings.json';
+import Info from '../info';
 
 const CurrentPosition = () => {
   const { currentPosition, currentCompany, currentCompanyURL } = settings;
@@ -24,7 +25,7 @@ const CurrentPosition = () => {
 };
 
 const Resume = () => {
-  const { name, profilePic, pageTitle } = settings;
+  const { name, profilePic, pageTitle, info } = settings;
   document.title = pageTitle || `${name} - Resume`;
   return (
     <div className="resume">
@@ -39,6 +40,11 @@ const Resume = () => {
         <div className="title">
           <div className="name">{name}</div>
           <CurrentPosition />
+        </div>
+      </div>
+      <div className="body">
+        <div className="left-column">
+          <Info info={info} />
         </div>
       </div>
     </div>
