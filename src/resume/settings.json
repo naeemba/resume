@@ -14,5 +14,23 @@
             "label": "Dubai / UAE",
             "link": "https://www.google.com/maps/place/Dubai+-+United+Arab+Emirates/data=!4m2!3m1!1s0x3e5f43496ad9c645:0xbde66e5084295162?sa=X&ved=2ahUKEwj60YH2ka_hAhWq5OAKHRYcAYsQ8gEwAHoECAoQAQ"
         }
+    ],
+    "link": [
+        {
+            "label": "Linkedin",
+            "link": "https://www.linkedin.com/in/naeem-baghi-71615b5b/"
+        },
+        {
+            "label": "Github",
+            "link": "https://github.com/naeemba"
+        },
+        {
+            "label": "Stackoverflow",
+            "link": "https://stackoverflow.com/users/2443849/naeem-baghi"
+        },
+        {
+            "label": "Twitter",
+            "link": "https://twitter.com/naeembaghi"
+        }
     ]
 }

@@ -25,7 +25,7 @@ const CurrentPosition = () => {
 };
 
 const Resume = () => {
-  const { name, profilePic, pageTitle, info } = settings;
+  const { name, profilePic, pageTitle, info, link } = settings;
   document.title = pageTitle || `${name} - Resume`;
   return (
     <div className="resume">
@@ -44,7 +44,8 @@ const Resume = () => {
       </div>
       <div className="body">
         <div className="left-column">
-          <Info info={info} />
+          <Info info={info} title="Info" linkClassName="no-color" />
+          <Info info={link} title="Links" />
         </div>
       </div>
     </div>

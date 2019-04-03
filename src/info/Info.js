@@ -1,14 +1,18 @@
 import React from 'react';
 
-const Info = ({ info }) => {
+const Info = ({ info, title, linkClassName }) => {
   if (!info || !Array.isArray(info)) return null;
   return [
     <div className="heading" key="title">
-      Info
+      {title}
     </div>,
     ...info.map(each => {
       return each.label ? (
-        <a key={each.label} href={each.link} className="no-color">
+        <a
+          key={each.label}
+          href={each.link}
+          className={`${linkClassName} section`}
+        >
           {each.label}
         </a>
       ) : (
