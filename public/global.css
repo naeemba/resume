@@ -1,10 +1,10 @@
 body, html, #root {
     height: 100%;
+    font-family: 'Roboto', serif, Tahoma;
 }
 
 body * {
     display: flex;
-    font-family: Tahoma;
 }
 
 .resume {
