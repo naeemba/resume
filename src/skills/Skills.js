@@ -12,10 +12,10 @@ const Score = ({ score }) => {
   ];
 };
 
-const Skills = ({ skills }) => {
+const Skills = ({ skills, title }) => {
   if (!skills || !Array.isArray(skills)) return null;
   return [
-    <div className="heading">Skills</div>,
+    <div className="heading">{title}</div>,
     ...skills.map(skill => (
       <div className="level">
         <div className="label">{skill.label}</div>

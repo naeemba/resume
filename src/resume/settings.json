@@ -54,5 +54,11 @@
             "label": "GraphQL",
             "score": 4
         }
+    ],
+    "languages": [
+        {
+            "label": "English",
+            "score": 5
+        }
     ]
 }

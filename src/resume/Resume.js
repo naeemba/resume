@@ -26,7 +26,15 @@ const CurrentPosition = () => {
 };
 
 const Resume = () => {
-  const { name, profilePic, pageTitle, info, link, skills } = settings;
+  const {
+    name,
+    profilePic,
+    pageTitle,
+    info,
+    link,
+    skills,
+    languages,
+  } = settings;
   document.title = pageTitle || `${name} - Resume`;
   return (
     <div className="resume">
@@ -47,7 +55,8 @@ const Resume = () => {
         <div className="left-column">
           <Info info={info} title="Info" linkClassName="no-color" />
           <Info info={link} title="Links" />
-          <Skills skills={skills} />
+          <Skills skills={skills} title="Skills" />
+          <Skills skills={languages} title="Languages" />
         </div>
       </div>
     </div>
