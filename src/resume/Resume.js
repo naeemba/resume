@@ -2,6 +2,7 @@
 import React from 'react';
 import settings from './settings.json';
 import Info from '../info';
+import Skills from '../skills';
 
 const CurrentPosition = () => {
   const { currentPosition, currentCompany, currentCompanyURL } = settings;
@@ -25,7 +26,7 @@ const CurrentPosition = () => {
 };
 
 const Resume = () => {
-  const { name, profilePic, pageTitle, info, link } = settings;
+  const { name, profilePic, pageTitle, info, link, skills } = settings;
   document.title = pageTitle || `${name} - Resume`;
   return (
     <div className="resume">
@@ -46,6 +47,7 @@ const Resume = () => {
         <div className="left-column">
           <Info info={info} title="Info" linkClassName="no-color" />
           <Info info={link} title="Links" />
+          <Skills skills={skills} />
         </div>
       </div>
     </div>

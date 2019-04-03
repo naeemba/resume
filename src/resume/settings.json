@@ -32,5 +32,27 @@
             "label": "Twitter",
             "link": "https://twitter.com/naeembaghi"
         }
+    ],
+    "skills": [
+        {
+            "label": "JavaScript",
+            "score": 5
+        },
+        {
+            "label": "React",
+            "score": 5
+        },
+        {
+            "label": "Redux",
+            "score": 5
+        },
+        {
+            "label": "HTML / CSS",
+            "score": 5
+        },
+        {
+            "label": "GraphQL",
+            "score": 4
+        }
     ]
 }
