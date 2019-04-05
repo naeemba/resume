@@ -7,6 +7,10 @@ body * {
     display: flex;
 }
 
+#root {
+    display: block;
+}
+
 .resume {
     margin: 40px auto;
     width: 80%;
