@@ -4,6 +4,20 @@ Simple resume app using some json config file
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Default description of `create-react-app` will come after this part.
+
+## Printing on Chrome
+
+You should consider these settings in the printing (Tested just on chrome):
+
+In the print dialog, click on More Settings and make sure these settings are applied:
+
+1. Margins: Default
+
+2. Background Graphics is checked
+
+3. Paper size: Tabloid (Optional)
+
 ## Available Scripts
 
 In the project directory, you can run:
