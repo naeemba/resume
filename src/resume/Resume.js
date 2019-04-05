@@ -3,6 +3,7 @@ import React from 'react';
 import settings from './settings.json';
 import Info from '../info';
 import Skills from '../skills';
+import Summary from '../summary';
 
 const CurrentPosition = () => {
   const { currentPosition, currentCompany, currentCompanyURL } = settings;
@@ -34,6 +35,7 @@ const Resume = () => {
     link,
     skills,
     languages,
+    summary,
   } = settings;
   document.title = pageTitle || `${name} - Resume`;
   return (
@@ -57,6 +59,9 @@ const Resume = () => {
           <Info info={link} title="Links" />
           <Skills skills={skills} title="Skills" />
           <Skills skills={languages} title="Languages" />
+        </div>
+        <div className="main-column">
+          <Summary summary={summary} />
         </div>
       </div>
     </div>

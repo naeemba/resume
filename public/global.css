@@ -115,6 +115,10 @@ a.no-color {
     line-height: 35px;
 }
 
+.justify {
+    text-align: justify;
+}
+
 .detail {
     flex-direction: column;
 }
