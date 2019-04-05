@@ -5,19 +5,23 @@ const Score = ({ score }) => {
   return [
     ...Array(score)
       .fill()
-      .map(each => <div key={each} className="filled-bullet" />),
+      // eslint-disable-next-line react/no-array-index-key
+      .map((_, each) => <div key={each} className="filled-bullet" />),
     ...Array(5 - score)
       .fill()
-      .map(each => <div key={each} className="empty-bullet" />),
+      // eslint-disable-next-line react/no-array-index-key
+      .map((_, each) => <div key={5 - each} className="empty-bullet" />),
   ];
 };
 
 const Skills = ({ skills, title }) => {
   if (!skills || !Array.isArray(skills)) return null;
   return [
-    <div className="heading">{title}</div>,
+    <div className="heading" key="heading">
+      {title}
+    </div>,
     ...skills.map(skill => (
-      <div className="level">
+      <div className="level" key={skill.label}>
         <div className="label">{skill.label}</div>
         <div className="bullet-container">
           <Score score={skill.score} />
