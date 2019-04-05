@@ -109,5 +109,26 @@
                 ]
             }
         ]
+    },
+    "education": {
+        "title": "Education",
+        "detail": [
+            {
+                "title": "First University - Degree",
+                "date": {
+                    "from": "Jun 2005",
+                    "to": "Jul 2007"
+                },
+                "location": "Germany"
+            },
+            {
+                "title": "Second University - Degree",
+                "date": {
+                    "from": "Jul 2007",
+                    "to": "Jan 2010"
+                },
+                "location": "Sweden"
+            }
+        ]
     }
 }

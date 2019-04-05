@@ -38,6 +38,7 @@ const Resume = () => {
     languages,
     summary,
     experience,
+    education,
   } = settings;
   document.title = pageTitle || `${name} - Resume`;
   return (
@@ -65,6 +66,7 @@ const Resume = () => {
         <div className="main-column">
           <Summary summary={summary} />
           <Experience experience={experience} />
+          <Experience experience={education} />
         </div>
       </div>
     </div>
