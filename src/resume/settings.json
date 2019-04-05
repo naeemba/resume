@@ -63,5 +63,51 @@
     ],
     "summary": {
         "description": "Front-end developer with 3+ years of experience in blending art of design and skill of programming. Skilled in various languages such as JavaScript and TypeScript."
+    },
+    "experience": {
+        "title": "Experience",
+        "detail": [
+            {
+                "title": "First Job Title",
+                "date": {
+                    "from": "Mar 2010",
+                    "to": "Jan 2015"
+                },
+                "location": "Dubai / UAE",
+                "keyFeatures": [
+                    "Test 1",
+                    "Test 2",
+                    "Test 3",
+                    "Test 4"
+                ]
+            },
+            {
+                "title": "Second Job Title",
+                "date": {
+                    "from": "Feb 2015",
+                    "to": "Apr 2018"
+                },
+                "location": "Remote",
+                "keyFeatures": [
+                    "Test 1",
+                    "Test 2",
+                    "Test 3",
+                    "Test 4"
+                ]
+            },
+            {
+                "title": "Last Job Title",
+                "date": {
+                    "from": "Apr 2018"
+                },
+                "location": "London / UK",
+                "keyFeatures": [
+                    "Test 1",
+                    "Test 2",
+                    "Test 3",
+                    "Test 4"
+                ]
+            }
+        ]
     }
 }

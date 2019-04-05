@@ -4,6 +4,7 @@ import settings from './settings.json';
 import Info from '../info';
 import Skills from '../skills';
 import Summary from '../summary';
+import Experience from '../experience';
 
 const CurrentPosition = () => {
   const { currentPosition, currentCompany, currentCompanyURL } = settings;
@@ -36,6 +37,7 @@ const Resume = () => {
     skills,
     languages,
     summary,
+    experience,
   } = settings;
   document.title = pageTitle || `${name} - Resume`;
   return (
@@ -62,6 +64,7 @@ const Resume = () => {
         </div>
         <div className="main-column">
           <Summary summary={summary} />
+          <Experience experience={experience} />
         </div>
       </div>
     </div>
