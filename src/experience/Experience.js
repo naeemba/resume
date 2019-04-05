@@ -9,7 +9,7 @@ const Experience = ({ experience }) => {
     </div>,
     <div className="detail" key="detail">
       {Array.isArray(detail) &&
-        detail.reverse().map(each => {
+        detail.reverse().map((each, index) => {
           const {
             title: experienceTitle,
             location,
@@ -39,7 +39,9 @@ const Experience = ({ experience }) => {
                 </div>
               )}
             </div>,
-            <div className="divider" key="divider" />,
+            ...(index < detail.length - 1
+              ? [<div className="divider" key="divider" />]
+              : []),
           ];
         })}
     </div>,
